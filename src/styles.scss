@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+a:hover{
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.blue{
+  background-color: mediumblue;
+}
+
+.green{
+  background-color: lightseagreen;
+}
+
+.red{
+  background-color: red;
+}
+
+button{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10% ;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+button:hover{
+  text-decoration: underline;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: auto;
+
+  div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    label{
+      width: 30%;
+    }
+
+    input,textarea{
+      width: 70%;
+    }
+
+    textarea{
+      height: 100px;
+      resize: none;
+      overflow-y: scroll;
+    }
+  }
+
+  button{
+    width: fit-content;
+    margin-left: auto;
+  }
+}
+
+h2{
+  text-align: center;
+  margin: 20px;
+}

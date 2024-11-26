@@ -1,0 +1,6 @@
+<h1>Happy library</h1>
+<nav>
+  @for (link of links; track link.url) {
+    <a [ngClass]="{right: link.title == 'Register' || link.title == 'Logout'}" [routerLink]="link.url" (click)="link.action ? link.action() : ''">{{ link.title }}</a>
+  }
+</nav>

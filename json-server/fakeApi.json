@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "email": "Seb@test.be",
+      "password": "$2a$10$TIumGLvyjoLM8EZwEjOV4eqpIiOXfe5YtGPF/HTWMcj7KHycaSd/.",
+      "id": 1
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "isbn": "978-0-123456-47-2",
+      "title": "Introduction to Spring Boot",
+      "author": "John Doe",
+      "description": "A comprehensive guide to building microservices with Spring Boot.",
+      "releaseDate": "2020-05-15"
+    },
+    {
+      "id": 2,
+      "isbn": "978-0-123456-48-9",
+      "title": "Mastering Angular",
+      "author": "Jane Smith",
+      "description": "Deep dive into Angular, covering everything from basics to advanced concepts.",
+      "releaseDate": "2019-09-23"
+    },
+    {
+      "id": 3,
+      "isbn": "978-0-123456-49-6",
+      "title": "Java Concurrency in Practice",
+      "author": "Brian Goetz",
+      "description": "An essential guide to writing concurrent applications in Java.",
+      "releaseDate": "2006-05-09"
+    },
+    {
+      "id": 4,
+      "isbn": "978-0-123456-50-2",
+      "title": "Learning TypeScript",
+      "author": "Sarah Drasner",
+      "description": "A practical guide to building scalable applications with TypeScript.",
+      "releaseDate": "2021-08-11"
+    },
+    {
+      "id": 5,
+      "isbn": "978-0-123456-51-9",
+      "title": "Effective Java",
+      "author": "Joshua Bloch",
+      "description": "Best practices and design patterns for Java programming.",
+      "releaseDate": "2018-01-06"
+    },
+    {
+      "id": 6,
+      "isbn": "978-0-123456-52-6",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "description": "A handbook of agile software craftsmanship, focusing on writing clean and maintainable code.",
+      "releaseDate": "2008-08-01"
+    },
+    {
+      "id": 7,
+      "isbn": "978-0-123456-53-3",
+      "title": "Domain-Driven Design",
+      "author": "Eric Evans",
+      "description": "Tackles the complexity of software development by focusing on domain modeling.",
+      "releaseDate": "2003-09-05"
+    },
+    {
+      "id": 8,
+      "isbn": "978-0-123456-54-0",
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt and David Thomas",
+      "description": "Classic book on software engineering and programming practices.",
+      "releaseDate": "1999-10-20"
+    },
+    {
+      "id": 9,
+      "isbn": "978-0-123456-55-7",
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "description": "A guide to improving the design of existing codebases through refactoring.",
+      "releaseDate": "2018-11-19"
+    },
+    {
+      "id": 10,
+      "isbn": "978-0-123456-56-4",
+      "title": "Microservices Patterns",
+      "author": "Chris Richardson",
+      "description": "A guide to building reliable, scalable microservice applications.",
+      "releaseDate": "2018-09-01"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<div>
+  <h2>Book details</h2>
+  <button class="blue"><a routerLink="/book">Back to list</a></button>
+  <h3>Titre : {{ book.title }}</h3>
+  <h4>Author : {{ book.author }}</h4>
+  <p>Realase date {{ book.releaseDate | date: 'dd MMMM yyyy' }}</p>
+  <p>{{ book.isbn }}</p>
+  <p>{{ book.description }}</p>
+</div>

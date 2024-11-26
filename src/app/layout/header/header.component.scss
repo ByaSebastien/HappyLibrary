@@ -1,0 +1,27 @@
+:host {
+  height: 100%;
+
+  h1 {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    padding: 10px;
+  }
+
+  nav {
+    padding: 10px;
+    background-color: chartreuse;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 30%;
+
+    .right {
+      margin-right: 0;
+      margin-left: auto;
+    }
+  }
+}
